@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: #0c4655;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.About-col-1{
+    flex-basis: 35%;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #0077ff;
+    font-size: 25px;
+}
+.About-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.About-col-1 h1 span{
+    color: aqua;
+}
+img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
